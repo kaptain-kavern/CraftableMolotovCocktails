@@ -16,4 +16,5 @@ So I choose 15 beers (=135 silver) and 40 cloth units (=60 silver) because it ro
 and even that way I found it a bit too OP :p
 
 ## Thanks
-Came from [this suggestion on Reddit](https://www.reddit.com/r/RimWorld/comments/561xz4/beer_cloth_molotovs/) so thank you 
+Came from [this suggestion on Reddit](https://www.reddit.com/r/RimWorld/comments/561xz4/beer_cloth_molotovs/).       
+So thank you all out there ! 
