@@ -1,4 +1,4 @@
-# CraftablePersonalShields
+# CraftableMolotovCocktails
 ## Description
 Just craftable molotov Cocktails, nothing less, nothing more.    
 They cost 40 Cloth units and 15 Beers to produce (at the Crafting Spot)
