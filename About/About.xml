@@ -2,8 +2,33 @@
 <ModMetaData>
 	<name>Craftable Molotov Cocktails</name>
 	<author>KapTaiN_KaVerN</author>
-	<targetVersion>0.15.0</targetVersion>
+	<targetVersion>0.17.0</targetVersion>
 	<description>Just craftable Molotov cocktails, nothing less, nothing more. 
-		They cost 40 Cloth units and 15 Beers to produce (at the Crafting Spot)
+
+They cost 40 Cloth units and 15 Beers to produce (at the Crafting Spot)
+
+
+
+
+////////////////////////About the cost////////////////////////
+
+As I don't use them often, at first I had forget that one Molotov cocktail item means unlimited ammo. I had set the price to 5 cloth units and 1 beer but it was way too OP that way.
+
+So i looked at the market values :
+
+    Molotov's cost 200 silver, Beer 9 and cloth 1.5.
+    So I choose 15 beers (=135 silver) and 40 cloth units (=60 silver) because it roughly
+    make the same price (=195 silver) ... and even that way I found it too OP :p
+
+
+
+
+////////////////////////////Thanks////////////////////////////
+
+Came from this suggestion on Reddit : 
+
+https://www.reddit.com/r/RimWorld/comments/561xz4/beer_cloth_molotovs/
+
+So thank you all out there !
 </description>
 </ModMetaData>
