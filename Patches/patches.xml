@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationInsert">
+		<xpath>//ThingDef[defName = "Weapon_GrenadeMolotov"]/thingCategories</xpath>
+		<value>
+		    <recipeMaker>
+		      <recipeUsers>
+		        <li>CraftingSpot</li>
+		      </recipeUsers>
+		    </recipeMaker>
+		    <costList>
+		      <Beer>1</Beer>
+		      <Cloth>25</Cloth>
+		      <Chemfuel>50</Chemfuel>
+		    </costList>
+		</value>
+	</Operation> 
+</Patch>
