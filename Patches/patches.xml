@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 	<Operation Class="PatchOperationInsert">
-		<xpath>//ThingDef[defName = "Weapon_GrenadeMolotov"]/thingCategories</xpath>
+		<xpath>/ThingDefs/ThingDef[defName = "Weapon_GrenadeMolotov"]/thingCategories</xpath>
 		<value>
 		    <recipeMaker>
 		      <recipeUsers>
