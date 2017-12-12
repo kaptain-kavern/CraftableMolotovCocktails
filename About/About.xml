@@ -2,28 +2,18 @@
 <ModMetaData>
 	<name>Craftable Molotov Cocktails</name>
 	<author>KapTaiN_KaVerN</author>
-	<targetVersion>0.17.0</targetVersion>
+	<targetVersion>0.18.0</targetVersion>
 	<description>Just craftable Molotov cocktails, nothing less, nothing more. 
 
-They cost 50 chemfuel, 25 Cloth units and 1 Beer to produce (at the Crafting Spot)
+They cost 50 chemfuel units, 50 Cloth units and 50 Beer to produce (at the Crafting Spot or Refinery)
 
+Crafting them requires the research project "Refining" to be finished. And a minimum crafting skills of 3.
 
-
+The mod also changes the Molotov cocktails label and description a bit.
 
 ////////////////////////About the cost////////////////////////
 
-As I don't use them often, at first I had forget that one Molotov cocktail item means unlimited ammo. I had set the price to 5 cloth units and 1 beer but it was way too OP that way.
-
-So i looked at the market values :
-
-Molotov's cost 200 silver, Beer 9, Chemfuel 3 and cloth 1.5.
-
-    So I choose 1 beer (=9 silver), 50 units of chemfuel (=150 silver) and 25 cloth units (=37.5 silver) 
-    because it roughly make the same price (=196.5 silver)
-    and even that way I found it too OP :p
-
-
-
+As I don't use them often, at first I had forget that one Molotov cocktail item means unlimited ammo. I had set the price to 5 cloth units and 1 beer but it was way too OP that way. Even now this is too OP, IMHO   
 
 ////////////////////////////Thanks////////////////////////////
 

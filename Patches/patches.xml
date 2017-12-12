@@ -1,18 +1,49 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
-	<Operation Class="PatchOperationInsert">
-		<xpath>/ThingDefs/ThingDef[defName = "Weapon_GrenadeMolotov"]/thingCategories</xpath>
-		<value>
-		    <recipeMaker>
-		      <recipeUsers>
-		        <li>CraftingSpot</li>
-		      </recipeUsers>
-		    </recipeMaker>
-		    <costList>
-		      <Beer>1</Beer>
-		      <Cloth>25</Cloth>
-		      <Chemfuel>50</Chemfuel>
-		    </costList>
-		</value>
-	</Operation> 
+
+		<Operation Class="PatchOperationSequence">
+			<success>Always</success>
+			<operations>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName = "Weapon_GrenadeMolotov"]/label</xpath>
+					<value>
+						<label>molotov cocktails set</label>
+					</value>
+				</li>
+				<li Class="PatchOperationReplace">
+					<xpath>Defs/ThingDef[defName = "Weapon_GrenadeMolotov"]/description</xpath>
+					<value>
+						<description>A set of glass bottles filled with flammable liquid, with a burning cloth in the neck. A favorite weapon of hooligans and desperate warriors from rim to rim.</description>
+					</value>
+				</li>
+				<li Class="PatchOperationInsert">
+					<xpath>Defs/ThingDef[defName = "Weapon_GrenadeMolotov"]/statBases/MarketValue</xpath>
+					<value>
+						<WorkToMake>1500</WorkToMake>
+					</value>
+				</li>
+				<li Class="PatchOperationInsert">
+					<xpath>Defs/ThingDef[defName = "Weapon_GrenadeMolotov"]/thingCategories</xpath>
+					<value>
+						<recipeMaker>
+							<recipeUsers>
+								<li>CraftingSpot</li>
+								<li>Refinery</li>
+							</recipeUsers>
+							<researchPrerequisite>Refining</researchPrerequisite>
+							<skillRequirements>
+								<Crafting>3</Crafting>
+							</skillRequirements>
+						</recipeMaker>
+						<costList>
+							<Beer>50</Beer>
+							<Cloth>50</Cloth>
+							<Chemfuel>50</Chemfuel>
+						</costList>
+					</value>
+				</li>
+			</operations>
+
+		</Operation>
+
 </Patch>
