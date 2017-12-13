@@ -1,4 +1,4 @@
-[![Version](https://img.shields.io/badge/Rimworld-A18-green.svg)](http://rimworldgame.com/)
+[![Version](https://img.shields.io/badge/Rimworld-A18-green.svg?style=for-the-badge)](http://rimworldgame.com/)
 # CraftableMolotovCocktails
 
 <p align="center"><img src="https://raw.githubusercontent.com/kaptain-kavern/CraftableMolotovCocktails/master/About/Preview.png" alt="Preview"/></p>
